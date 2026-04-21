@@ -1,0 +1,51 @@
+cff-version: 1.2.0
+message: "If you use PersianIdioBench, please cite the paper below."
+title: "PersianIdioBench: A Multi-Task Benchmark for Persian Idiom Understanding and Generation"
+abstract: >-
+  PersianIdioBench is a publicly released benchmark for evaluating NLP systems
+  on Persian idiomatic expressions. It comprises 4,352 deduplicated idioms
+  compiled from web dictionaries, encyclopedic entries, educational resources,
+  and previously published academic collections, with a gold-standard layer of
+  evaluative-polarity annotation (Cohen's kappa = 0.68). The benchmark defines
+  three tasks: Connotation Classification, Appropriateness in Context, and
+  Cloze-Style Idiom Selection.
+type: dataset
+version: "1.0.0"
+date-released: "2026-04-21"
+license: CC-BY-4.0
+repository-code: "https://github.com/persianbenchmark/PersianIdioBench"
+keywords:
+  - Persian
+  - Farsi
+  - idioms
+  - figurative language
+  - benchmark
+  - low-resource NLP
+  - sentiment analysis
+  - cloze task
+  - large language models
+  - evaluation
+authors:
+  - family-names: Hashempour
+    given-names: Reyhaneh
+    orcid: "https://orcid.org/0000-0001-5925-3676"
+  - family-names: Sutcliffe
+    given-names: Richard
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: Chamberlain
+    given-names: Jon
+    # orcid: "https://orcid.org/0000-0000-0000-0000"
+preferred-citation:
+  type: article
+  title: "PersianIdioBench: A Multi-Task Benchmark for Persian Idiom Understanding and Generation"
+  authors:
+    - family-names: Hashempour
+      given-names: Reyhaneh
+      orcid: "https://orcid.org/0000-0001-5925-3676"
+    - family-names: Sutcliffe
+      given-names: Richard
+    - family-names: Chamberlain
+      given-names: Jon
+  journal: "PLOS ONE"
+  year: 2026
+  notes: "Under review"

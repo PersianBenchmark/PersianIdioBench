@@ -1,0 +1,42 @@
+{
+  "title": "PersianIdioBench: A Multi-Task Benchmark for Persian Idiom Understanding and Generation",
+  "description": "PersianIdioBench is a publicly released benchmark for evaluating NLP systems on Persian idiomatic expressions. It comprises 4,352 deduplicated idioms compiled from web dictionaries, encyclopedic entries, educational resources, and previously published academic collections, with a gold-standard layer of evaluative-polarity annotation (Cohen's kappa = 0.68). The benchmark defines three tasks: Connotation Classification, Appropriateness in Context, and Cloze-Style Idiom Selection.",
+  "license": "CC-BY-4.0",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "language": "fas",
+  "keywords": [
+    "Persian",
+    "Farsi",
+    "idioms",
+    "figurative language",
+    "benchmark",
+    "low-resource NLP",
+    "sentiment analysis",
+    "cloze",
+    "large language models",
+    "evaluation"
+  ],
+  "creators": [
+    {
+      "name": "Hashempour, Reyhaneh",
+      "affiliation": "",
+      "orcid": "0000-0001-5925-3676"
+    },
+    {
+      "name": "Sutcliffe, Richard",
+      "affiliation": ""
+    },
+    {
+      "name": "Chamberlain, Jon",
+      "affiliation": ""
+    }
+  ],
+  "related_identifiers": [
+    {
+      "relation": "isSupplementTo",
+      "identifier": "https://github.com/persianbenchmark/PersianIdioBench",
+      "resource_type": "software"
+    }
+  ]
+}

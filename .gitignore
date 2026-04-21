@@ -1,0 +1,36 @@
+# macOS / Windows
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Logs and scratch
+*.log
+tmp/
+scratch/
+
+# LaTeX build artefacts (in case the paper folder is added later)
+*.aux
+*.bbl
+*.blg
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
