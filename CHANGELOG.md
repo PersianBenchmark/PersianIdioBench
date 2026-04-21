@@ -16,4 +16,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LICENSE` (Creative Commons Attribution 4.0 International).
 - `CITATION.cff` for machine-readable citation.
 - `.zenodo.json` for DOI archival on first GitHub release.
-- Fig 1 (`docs/idiom_context_freq.png`) reproduced from the paper.

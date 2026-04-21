@@ -40,8 +40,6 @@ PersianIdioBench/
 │   └── cloze/
 │       ├── cloze.csv
 │       └── README.md                  # data card
-└── docs/
-    └── idiom_context_freq.png         # Fig 1 from the paper
 ```
 
 ## Datasets at a glance
