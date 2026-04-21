@@ -48,7 +48,7 @@ PersianIdioBench/
 | --- | --- | ---: | --- |
 | Connotation Classification | `data/connotation/connotation.csv` | 2,706 | `idiom`, `label`, `source`, `meaning` |
 | Appropriateness in Context | `data/appropriateness/appropriateness.csv` | 5,089 | `idiom_in_text`, `correct_idiom`, `text`, `label` |
-| Cloze-Style Idiom Selection | `data/cloze/cloze.csv` | 2,457 | `idiom`, `masked_text` |
+| Cloze-Style Idiom Selection | `data/cloze/cloze.csv` | 2,211 | `idiom`, `masked_text`, `candidates` |
 
 Field-level descriptions, source provenance, label distributions, and the annotation protocol for each task are in the corresponding `data/<task>/README.md` (data card). All files are UTF-8 comma-separated CSVs.
 
