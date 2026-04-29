@@ -4,6 +4,15 @@ All notable changes to PersianIdioBench are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-04-29
+
+### Added
+- `data/raw/raw_idioms.csv` — the cleaned, de-duplicated 4,352-idiom inventory used as the starting pool for all three task datasets. Columns: `proverb`, `normalized`, `source`, `tokens`.
+- `data/raw/README.md` data card describing schema, source distribution, construction protocol, and relation to the Connotation, Appropriateness, and Cloze datasets.
+
+### Changed
+- Top-level `README.md` repository layout and "Datasets at a glance" table updated to include the raw idiom repository.
+
 ## [1.0.1] - 2026-04-21
 
 ### Changed

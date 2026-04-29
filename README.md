@@ -31,6 +31,9 @@ PersianIdioBench/
 ├── .zenodo.json                       # metadata for Zenodo DOI archival
 ├── .gitignore
 ├── data/
+│   ├── raw/
+│   │   ├── raw_idioms.csv             # cleaned, de-duplicated 4,352-idiom inventory
+│   │   └── README.md                  # data card
 │   ├── connotation/
 │   │   ├── connotation.csv
 │   │   └── README.md                  # data card
@@ -44,13 +47,14 @@ PersianIdioBench/
 
 ## Datasets at a glance
 
-| Task | File | Rows | Columns |
+| Resource | File | Rows | Columns |
 | --- | --- | ---: | --- |
+| Raw idiom repository | `data/raw/raw_idioms.csv` | 4,352 | `proverb`, `normalized`, `source`, `tokens` |
 | Connotation Classification | `data/connotation/connotation.csv` | 2,706 | `idiom`, `label`, `source`, `meaning` |
 | Appropriateness in Context | `data/appropriateness/appropriateness.csv` | 5,089 | `idiom_in_text`, `correct_idiom`, `text`, `label` |
 | Cloze-Style Idiom Selection | `data/cloze/cloze.csv` | 2,211 | `idiom`, `masked_text`, `candidates` |
 
-Field-level descriptions, source provenance, label distributions, and the annotation protocol for each task are in the corresponding `data/<task>/README.md` (data card). All files are UTF-8 comma-separated CSVs.
+`data/raw/raw_idioms.csv` is the cleaned, de-duplicated starting inventory of 4,352 Persian idioms compiled from web dictionaries (Abadis), encyclopedic sources (Dehkhoda, Amid via Moein), educational sites (Paarsadab, Dyanati) and prior academic lists (Ostovar and related collections). All three task datasets are derived from this pool. Field-level descriptions, source provenance, label distributions, and the annotation protocol for each resource are in the corresponding `data/<resource>/README.md` (data card). All files are UTF-8 comma-separated CSVs.
 
 ## Evaluation metrics
 
