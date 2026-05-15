@@ -91,7 +91,7 @@ A machine-readable citation is provided in `CITATION.cff`.
 ### CRediT author contributions
 
 - **Reyhaneh Hashempour** — Conceptualization; Data curation; Formal analysis; Investigation; Methodology; Resources; Software; Validation; Visualization; Writing – original draft; Writing – review & editing.
-- **Richard Sutcliffe** — Methodology; Supervision; Writing – review & editing.
+- **Richard Sutcliffe** — Methodology; Supervision; Writing – original draft; Writing – review & editing.
 - **Jon Chamberlain** — Methodology; Supervision; Writing – review & editing.
 
 ## Contact
